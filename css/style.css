@@ -37,9 +37,16 @@
 }
 
 .infuts{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+}
+
+.f-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .textareawrapper{
@@ -60,22 +67,18 @@
     background-color: aquamarine;
 }
 
-.user{
-    
-    max-width: 352px;
-    width: 100%;
-    height: 288px;
-    
-}
+
 
 .user-wrapper {
+    max-width: 352px;
+    width: 100%;
     height: 288px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.user input{
+.user-wrapper input{
     width: 100%;
     height: 60px;
     padding: 20px;    
@@ -89,7 +92,7 @@
     border: none;
 }
 
-.user input::placeholder{
+.user-wrapper input::placeholder{
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -98,11 +101,11 @@
     color: black;
 }
 
-.user input:focus{
+.user-wrapper input:focus{
     background-color: aquamarine;
 }
 
-.user input[type= submit]{
+.user-wrapper input[type= submit]{
     background-color:#5863F8;
     cursor: pointer;
     display: flex;
@@ -116,7 +119,7 @@
     color: #ffffff;
 }
 
-.user input[type= submit]:hover{
+.user-wrapper input[type= submit]:hover{
     background-color: blue;
 }
 
