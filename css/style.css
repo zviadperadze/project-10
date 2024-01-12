@@ -1,0 +1,118 @@
+/* section 1 */
+.s-1{
+    margin-top: 20px;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.text{
+    max-width: 340px;
+    width: 100%;
+    margin-bottom: 55px;
+}
+.text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #5863f8;
+    margin-bottom: 7px;
+}
+
+.text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.infuts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.textareawrapper{
+    width: 720px;
+    height: 288px;
+   
+}
+
+.textareawrapper textarea{
+    width: 100%;
+    height: 288px;
+    resize: none;
+    padding: 20px;
+    border: none;
+    /* outline: none; */
+}
+.textareawrapper textarea:focus{
+    background-color: aquamarine;
+}
+
+.user{
+    
+    max-width: 352px;
+    width: 100%;
+    height: 288px;
+    
+}
+
+.user-wrapper {
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user input{
+    width: 100%;
+    height: 60px;
+    padding: 20px;    
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+.user input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: black;
+}
+
+.user input:focus{
+    background-color: aquamarine;
+}
+
+.user input[type= submit]{
+    background-color:#5863F8;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+/* section 2 */
