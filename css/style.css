@@ -1,6 +1,7 @@
 /* section 1 */
 .s-1{
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -115,4 +116,53 @@
     color: #ffffff;
 }
 
+.user input[type= submit]:hover{
+    background-color: blue;
+}
+
 /* section 2 */
+.s-2{
+    margin-bottom: 100px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    max-width: 352px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card-card{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.fa-location-dot{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.fa-phone{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.fa-envelope{
+    color: #ffffff;
+    font-size: 25px;
+}
