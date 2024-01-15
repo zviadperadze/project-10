@@ -12,6 +12,11 @@
         width: 30%;
         
     }
+    .textareawrapper{
+        width: 60%;
+    }
+    .user-wrapper{
+        width: 35%;
 }
 
 @media (max-width:990px){
