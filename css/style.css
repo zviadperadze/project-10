@@ -49,11 +49,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* gap: 50px; */
+    gap: 10px;
 }
 
 .textareawrapper{
-    width: 720px;
+    max-width: 720px;
+    width: 100%;
     height: 288px;
    
 }
@@ -135,7 +136,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
+    gap: 10px;
 
 }
 
@@ -152,6 +153,7 @@
 }
 
 .card-card{
+   
     width: 60px;
     height: 60px;
     background-color: blue;
@@ -242,7 +244,9 @@ footer{
 }
 
 .zetahotel{
-    width: 260px;
+    
+    max-width: 260px;
+    width: 100%;
     height: 188px;
     
 }

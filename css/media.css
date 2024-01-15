@@ -1,0 +1,49 @@
+@media(max-width:1200px) {
+    .container{
+        width: 90%;
+    }
+    .textareawrapper {
+        width: 65%;
+    }
+}
+
+@media (max-width:1195px){
+    .card{
+        width: 30%;
+        
+    }
+}
+
+@media (max-width:990px){
+    .footnav-wrapper{
+        width: 40%;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:860px){
+    .textareawrapper{
+        width: 60%;
+    }
+
+    .user-wrapper{
+        width: 35%;
+    }
+
+    .card{
+        width: 20%;
+        
+    }
+    
+    .footnav-wrapper{
+        width: 25%;
+        justify-content: space-between
+    }
+    
+}
+
+@media(max-width:750px){
+    .zetahotel{
+        width: 20%;
+    }
+}
