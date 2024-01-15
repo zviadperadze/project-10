@@ -39,6 +39,7 @@
 .infuts{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 50px;
 }
@@ -46,7 +47,9 @@
 .f-1{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    /* gap: 50px; */
 }
 
 .textareawrapper{
@@ -130,7 +133,9 @@
 
 .contacts{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 50px;
 
 }
 
@@ -142,6 +147,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    /* margin-bottom: 50px; */
     
 }
 
@@ -168,4 +174,178 @@
 .fa-envelope{
     color: #ffffff;
     font-size: 25px;
+}
+
+/* section 3 */
+
+.s-3{
+    margin-bottom: 10px;
+}
+
+.text-2{
+    max-width: 543px;
+    width: 100%;
+    margin-bottom: 55px;
+}
+
+.text-2 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #5863f8;
+    margin-bottom: 7px;
+}
+
+.text-2 h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+}
+
+
+.photo-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+
+
+}
+
+.photo{
+    width: 352px;
+    height: 352px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+}
+
+.myfooter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zetahotel{
+    width: 260px;
+    height: 188px;
+    
+}
+
+.zetahotel h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.zetahotel p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #b1b1b1;
+}
+
+.footnav-wrapper{
+    max-width: 270px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footnav{
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.footnav h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+.footnav a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #5863f8;
+    line-height: 25px;
+}
+
+
+.footnavcontact{
+    width: 235px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footnavcontact h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 23px;
+}
+
+
+.footnavcontact a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.footnavcontact .fa-envelope{
+    color: #5863f8;
+    font-size: large;
+   
+}
+
+.footnavcontact .fa-phone{
+    color: #5863f8;
+    font-size: large;
+   
+}
+
+.footnavcontact .fa-location-dot{
+    color: #5863f8;
+    font-size: large;
+   
 }
