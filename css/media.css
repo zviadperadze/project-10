@@ -39,16 +39,39 @@
         width: 20%;
         
     }
+
+    .myfooter{
+        justify-content: space-around
+    }
     
     .footnav-wrapper{
-        width: 25%;
-        justify-content: space-between
+        display: none;
+    }
+
+    .bar{
+        display: block;
     }
     
 }
 
 @media(max-width:750px){
-    .zetahotel{
-        width: 20%;
+    
+    .footnavcontact{
+        display: none;
     }
 }
+
+@media(max-width:550px){
+
+    .contacts{
+        gap: 50px;
+    }
+    .card{
+        width: 40%;
+        
+
+    }
+    
+
+}
+    

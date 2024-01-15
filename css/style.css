@@ -353,3 +353,45 @@ footer{
     font-size: large;
    
 }
+
+.bar{
+    height: 151px;
+    display: none;
+}
+
+.fa-bars{
+    color: #5863f8;
+    font-size: xx-large;
+}
+
+.icon-wrapper{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 27px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb{
+    background-color: #3B5998;
+    color: #ffffff;
+    
+}
+
+.tw{
+    background-color: #55ACEE;
+    color: #ffffff;
+}
+
+.google{
+    color: #ffffff;
+    background-color: #DC4E41;
+}
