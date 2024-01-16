@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 12 version
+*/
+
 /* section 1 */
 .s-1{
     margin-top: 20px;
@@ -38,17 +45,27 @@
 
 .infuts{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-bottom: 50px;
 }
 
 .f-1{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 10px;
 }
 
@@ -77,9 +94,16 @@
     max-width: 352px;
     width: 100%;
     height: 288px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .user-wrapper input{
@@ -96,7 +120,43 @@
     border: none;
 }
 
-.user-wrapper input::placeholder{
+::-webkit-input-placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: black;
+}
+
+::-moz-placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: black;
+}
+
+:-ms-input-placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: black;
+}
+
+::-ms-input-placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    color: black;
+}
+
+::placeholder{
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     font-weight: normal;
@@ -112,9 +172,15 @@
 .user-wrapper input[type= submit]{
     background-color:#5863F8;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center; 
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; 
+    -webkit-box-align: center; 
+        -ms-flex-align: center; 
+            align-items: center;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: normal;
@@ -133,9 +199,14 @@
 }
 
 .contacts{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 10px;
 
 }
@@ -144,12 +215,37 @@
     max-width: 352px;
     width: 100%;
     height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* margin-bottom: 50px; */
-    
+}
+.card a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #b1b1b1;
+}
+
+.card h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
 }
 
 .card-card{
@@ -158,10 +254,18 @@
     height: 60px;
     background-color: blue;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
 }
+
+
 
 .fa-location-dot{
     color: #ffffff;
@@ -190,7 +294,7 @@
     margin-bottom: 55px;
 }
 
-.text-2 h1{
+.text-2 h2{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -213,9 +317,13 @@
 
 .photo-wrapper{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     gap: 50px;
 
 
@@ -237,10 +345,17 @@ footer{
 .myfooter{
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .zetahotel{
@@ -251,7 +366,7 @@ footer{
     
 }
 
-.zetahotel h1{
+.zetahotel h2{
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -273,20 +388,29 @@ footer{
 .footnav-wrapper{
     max-width: 270px; 
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 
 }
 
 .footnav{
     height: 151px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
    
 
 }
 
-.footnav h1{
+.footnav h2{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -310,12 +434,17 @@ footer{
 .footnavcontact{
     width: 235px;
     height: 151px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     
 }
 
-.footnavcontact h1{
+.footnavcontact h2{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -366,18 +495,28 @@ footer{
 
 .icon-wrapper{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 27px;
 }
 .icon{
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .fb{
